@@ -2,10 +2,7 @@ module github.com/mopeneko/dstat
 
 go 1.18
 
-require (
-	github.com/akhenakh/statgo v0.0.0-20171021021904-3ae2cda264c5
-	github.com/labstack/echo/v4 v4.7.2
-)
+require github.com/labstack/echo/v4 v4.7.2
 
 require (
 	github.com/labstack/gommon v0.3.1 // indirect
